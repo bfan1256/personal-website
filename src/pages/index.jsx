@@ -284,10 +284,10 @@ export default function Home({ articles }) {
             I love building software 💻, exploring new markets 📈, and telling awesome stories 📜.
           </p>
           <p className="mt-2 text-base text-zinc-600 text-lg dark:text-zinc-300">
-            I’ve raised money from VCs like <a className='text-underline text-blue-400' href="https://contrary.com/">Contrary Capital</a>, <a className='text-underline text-blue-400' href="https://roughdraft.vc/">Rough Draft Ventures</a>, and am a <a className='text-underline text-blue-400' href="https://www.fellowship.rippleventures.com/fellowship-program">RippleX Venture Fellow</a> and <a className='text-underline text-blue-400' href="http://emersondove.com/">Neo Scholar</a>.
+            I’ve raised money from VCs like <a className='text-underline text-blue-400' href="https://contrary.com/">Contrary Capital</a>, <a className='text-underline text-blue-400' href="https://roughdraft.vc/">Rough Draft Ventures</a>, and am a <a className='text-underline text-blue-400' href="https://www.fellowship.rippleventures.com/fellowship-program">RippleX Venture Fellow</a> and <a className='text-underline text-blue-400' href="https://neo.com/">Neo Scholar</a>.
           </p>
           <p className="mt-2 text-base text-zinc-600 text-lg dark:text-zinc-300">
-            I’m currently building Shade with <a className='text-underline text-blue-400' href="https://emersondove.com/">@emersondove</a>, where we&apos;re reimagining the way we understand and manage the digital world.
+            I’m currently building Shade with <a className='text-underline text-blue-400' href="http://emersondove.com/">@emersondove</a>, where we&apos;re reimagining the way we understand and manage the digital world.
           </p>
           <p className="mt-2 text-base text-zinc-600 text-lg dark:text-zinc-300">
             If you’re interested, <a className='text-underline text-blue-400' href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ37Q9EazRsXRxELgQkQSfFe4lPkt6R3MmMTf0UJ69EzA51tRZQf_tZyJU0LHJKW4cBMToGxZMIO">let&apos;s chat</a>.
