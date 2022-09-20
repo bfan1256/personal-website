@@ -1,0 +1,13 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Brandon Fan',
+  date: '2022-03-30',
+  title: 'Build a Backtester in Python in 10 Minutes',
+  href: 'https://blankly.finance/build-a-backtester',
+  external: true,
+  description:
+    `Let’s take a look at this first backtester, a vectorized one. First, what is a vectorized backtest? The best way is to prescribe an example. Let’s say I wanted to build a trading algorithm that looked at two moving averages and identified when they crossed (hmmm...sounds like the golden cross)...`,
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />

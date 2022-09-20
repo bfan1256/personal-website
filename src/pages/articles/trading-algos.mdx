@@ -1,0 +1,13 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Brandon Fan',
+  date: '2022-03-09',
+  title: 'Why Building a Trading Algorithm is More Than Just the Algorithm — 3 Things',
+  href: 'https://medium.com/@brandonfan1256/why-building-a-trading-algorithm-is-more-than-just-the-algorithm-3-things-5300c4a22d08',
+  external: true,
+  description:
+    `Trading algorithms are awesome. They’re automated, streamlined, and if made well, can generate amazing profits. Fundamentally, a trading algorithm is a set of rules or logic that takes in pieces of data to ultimately make a decision about when to buy and when to sell specific assets, or universe of assets: a very, very well-crafted function to that takes in input, and determines a set of trading signals (buying and selling).`,
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
