@@ -124,7 +124,7 @@ function MobileNavigation(props) {
                 <MobileNavItem href="/">Home</MobileNavItem>
                 <MobileNavItem href="/articles">Articles</MobileNavItem>
                 <MobileNavItem href="/projects">Projects</MobileNavItem>
-                <MobileNavItem href="/speaking">Speaking</MobileNavItem>
+                <MobileNavItem href="/research">Research</MobileNavItem>
                 <MobileNavItem href="/books">Books</MobileNavItem>
               </ul>
             </nav>

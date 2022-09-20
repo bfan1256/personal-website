@@ -239,7 +239,7 @@ function Photos() {
 
   return (
     <div className="mt-16 sm:mt-20">
-      <div className="-my-4 flex px-24 justify-start gap-5 overflow-x-scroll scrollbar-hide py-4 sm:gap-8">
+      <div className="-my-4 flex px-4 sm:px-24 justify-start gap-5 overflow-x-scroll scrollbar-hide py-4 sm:gap-8">
         {[image2, image3, image4, image1, image5, image6, image7, image8].map((image, imageIndex) => (
           <div
             key={image.src}
