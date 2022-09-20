@@ -88,16 +88,30 @@ function ArrowDownIcon(props) {
 }
 
 function Article({ article }) {
+  let url = ''
+  if (article.external) {
+    url = article.href;
+  } else {
+    url = `/articles/${article.slug}`;
+  }
   return (
     <Card as="article">
-      <Card.Title href={`/articles/${article.slug}`}>
+      <Card.Title href={url}>
         {article.title}
       </Card.Title>
       <Card.Eyebrow as="time" dateTime={article.date} decorate>
         {formatDate(article.date)}
       </Card.Eyebrow>
       <Card.Description>{article.description}</Card.Description>
-      <Card.Cta>Read article</Card.Cta>
+      <Card.Cta>
+        {
+          article.external ? (
+            article.href.indexOf('medium') !== -1 ? (
+              'Read Article on Medium'
+            ) : 'Read External Article'
+          ) : 'Read Article'
+        }
+      </Card.Cta>
     </Card>
   )
 }
