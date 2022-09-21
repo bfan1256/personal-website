@@ -44,7 +44,7 @@ const projects = [
     name: 'Snippets.io',
     description:
       'An easy place to curate and find easy to use snippets with strong semantic search. Built in 1 week.',
-    link: { href: 'https://snippets.io', label: 'Go to Website' },
+    link: { href: 'https://controlv.dev', label: 'Go to Website' },
     logo: logoAnimaginary,
     preview: snippets
   },
@@ -123,7 +123,7 @@ export default function Projects() {
           ))}
         </ul>
 
-        <p className="dark:text-zinc-200 text-zinc-800 mt-12">Want to see more projects? Check out my GitHub</p>
+        <p className="dark:text-zinc-200 text-zinc-800 mt-12">Want to see more projects? Check out my <a href="https://github.com/bfan1256" className='dark:text-blue-400 text-blue-500'>GitHub</a></p>
       </SimpleLayout>
     </>
   )
