@@ -27,6 +27,7 @@ import logoStarbucks from '@/images/logos/starbucks.svg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
+import { Router, useRouter } from 'next/router'
 
 function MailIcon(props) {
   return (
@@ -154,6 +155,7 @@ function Newsletter() {
 }
 
 function Resume() {
+  const router = useRouter()
   let resume = [
     {
       company: 'Stealth Startup',
@@ -239,7 +241,7 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <div onClick={() => {window.open('/resume.pdf'); window.open('https://youtu.be/dQw4w9WgXcQ'); }}>
+      <div onClick={() => { window.open('https://youtu.be/dQw4w9WgXcQ'); router.push('/resume.pdf') }}>
         <Button variant="secondary" className="group mt-6 w-full">
           Download Resume
           <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
