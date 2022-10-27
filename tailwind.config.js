@@ -95,6 +95,7 @@ module.exports = {
           },
           p: {
             marginTop: theme('spacing.7'),
+            fontSize: theme('fontSize.lg')[0],
             marginBottom: theme('spacing.7'),
           },
 
@@ -104,7 +105,7 @@ module.exports = {
             fontWeight: theme('fontWeight.semibold'),
           },
           h2: {
-            fontSize: theme('fontSize.xl')[0],
+            fontSize: theme('fontSize.2xl')[0],
             lineHeight: theme('lineHeight.7'),
             marginTop: theme('spacing.20'),
             marginBottom: theme('spacing.4'),
